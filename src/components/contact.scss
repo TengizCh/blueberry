@@ -1,0 +1,124 @@
+.contact_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  //   background-color: #e6eaee;
+  background-image: url("https://i0.wp.com/bdn-data.s3.amazonaws.com/uploads/2021/05/Maine_wild_blueberries-scaled.jpg?fit=2560%2C1707&ssl=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 200;
+}
+
+.contact_grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr);
+  //   grid-column-gap: 0px;
+  //   grid-row-gap: 0px;
+  background-color: transparent;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+  //   -webkit-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+  //   -moz-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+  //   box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+}
+
+// .grid_left {
+//   width: 100%;
+//   height: 100%;
+//   background-color: transparent;
+//   z-index: 1000;
+//   //   border-radius: 3px 0px 0px 3px;
+//   //   background-repeat: no-repeat;
+//   //   background-size: cover;
+//   //   background-position: center;
+//   //   background-image: url("//images.pexels.com/photos/2539177/pexels-photo-2539177.jpeg?cs=srgb&dl=pexels-kelly-2539177.jpg&fm=jpg");
+// }
+
+.grid_right {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 40px 30px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.827);
+  height: 70%;
+  width: 40%;
+  -webkit-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+  box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+}
+.contact_summary {
+  font-size: 14px;
+  color: rgba(41, 41, 41, 0.796);
+  margin-bottom: 60px;
+}
+
+.details_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 30px;
+
+  h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}
+
+.details_text {
+  color: rgba(41, 41, 41, 0.796);
+  font-size: 16px;
+}
+
+.contact_icon {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgba(41, 41, 41, 0.796);
+}
+
+.icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 24px;
+
+  button {
+    background-color: transparent;
+    border: none;
+    transition: 0.4s ease-in;
+
+    :hover {
+      color: rgb(41, 41, 172);
+    }
+  }
+}
+
+.link_icon {
+  font-size: 40px;
+  color: rgba(41, 41, 41, 0.796);
+  transition: 0.4s ease-in;
+
+  :hover {
+    color: rgb(41, 41, 172);
+  }
+}

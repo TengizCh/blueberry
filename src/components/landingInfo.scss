@@ -4,6 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.about_title {
+  font-size: 38px;
+  color: red;
+  text-decoration: none;
+  box-shadow: none;
 }
 
 .info_grid {

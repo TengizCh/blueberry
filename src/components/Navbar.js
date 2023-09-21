@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [bg, setBg] = useState("nav_container");
@@ -19,9 +20,15 @@ const Navbar = () => {
       <div className="inner_container">
         <div className="nav_logo_container">Logo</div>
         <div className="nav_links_container">
-          <p className="link">Home</p>
-          <p className="link">About</p>
-          <p className="link">Contact</p>
+          <Link to="/" className="link">
+            Home
+          </Link>
+          <Link to="/about" className="link">
+            About
+          </Link>
+          <Link to="/contact" className="link">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
