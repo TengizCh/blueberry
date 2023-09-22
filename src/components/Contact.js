@@ -8,11 +8,17 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
+import { motion } from "framer-motion";
+
 const Contact = () => {
   return (
-    <div className="contact_container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="contact_container"
+    >
       <div className="contact_grid">
-        {/* <div className="grid_left"></div> */}
         <div className="grid_right">
           <h2>Contact us</h2>
           <p className="contact_summary">
@@ -46,7 +52,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import { Button, Menu, MenuItem } from "@mui/material";
+
+import { MdLanguage } from "react-icons/md";
 
 const Navbar = () => {
   const [bg, setBg] = useState("nav_container");
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
   const addBgColor = () => {
     if (window.scrollY >= 1) {
@@ -14,6 +19,14 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", addBgColor);
+
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   return (
     <div className={bg}>
@@ -29,6 +42,50 @@ const Navbar = () => {
           <Link to="/contact" className="link">
             Contact
           </Link>
+          <div>
+            <Button
+              id="demo-positioned-button"
+              aria-controls={open ? "demo-positioned-menu" : undefined}
+              aria-haspopup="true"
+              aria-expanded={open ? "true" : undefined}
+              onClick={handleClick}
+              style={{ padding: "0px" }}
+            >
+              <MdLanguage className="language_icon" />
+            </Button>
+            <Menu
+              id="demo-positioned-menu"
+              aria-labelledby="demo-positioned-button"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              anchorOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+            >
+              <MenuItem className="menu" onClick={handleClose}>
+                ქართული
+                <img
+                  alt=""
+                  className="flag_icon"
+                  src={require("../assets/georgia.png")}
+                />
+              </MenuItem>
+              <MenuItem className="menu" onClick={handleClose}>
+                English
+                <img
+                  alt=""
+                  className="flag_icon"
+                  src={require("../assets/united-kingdom.png")}
+                />
+              </MenuItem>
+            </Menu>
+          </div>
         </div>
       </div>
     </div>

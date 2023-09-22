@@ -90,3 +90,19 @@
     width: 100%;
   }
 }
+
+.language_icon {
+  font-size: 24px;
+  color: white !important;
+}
+
+.menu {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.flag_icon {
+  height: 22px;
+  width: 22px;
+  margin-left: 5px;
+}
