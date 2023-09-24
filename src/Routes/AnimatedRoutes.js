@@ -7,8 +7,6 @@ import Contact from "../components/Contact";
 import "../index.css";
 import Navbar from "../components/Navbar";
 
-import { motion } from "framer-motion";
-
 const AnimatedRoutes = () => {
   const [loading, setLoading] = useState(false);
 

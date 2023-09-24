@@ -107,5 +107,7 @@ body {
   max-width: 100%;
   /* color: #8b31ff;  */
   color: white;
+  text-decoration: underline;
+
   animation: loading 2.8s linear;
 }
