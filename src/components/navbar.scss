@@ -17,7 +17,7 @@
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  padding: 1.5rem 8rem;
+  padding: 0.6rem 8rem;
 }
 
 .nav_links_container {
@@ -36,6 +36,8 @@
   cursor: pointer;
   position: relative;
   text-decoration: none !important;
+  font-family: var(--font-lato) !important;
+  letter-spacing: 1px;
 }
 
 .link:before {
@@ -61,7 +63,7 @@
 
 .navbar_With_Bg {
   background-color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
 
@@ -105,4 +107,10 @@
   height: 22px;
   width: 22px;
   margin-left: 5px;
+}
+
+.main_logo {
+  background-image: url("../assets/12.png");
+  height: 60px;
+  width: 120px;
 }

@@ -17,7 +17,7 @@ const Landing = () => {
           alt=""
           src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
         />
-        <h1 className="landing_text">Blueberry Factory</h1>
+        <h1 className="landing_text">Biomo</h1>
         <LandingInfo />
         <Footer />
       </div>

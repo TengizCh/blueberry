@@ -31,7 +31,9 @@ const Navbar = () => {
   return (
     <div className={bg}>
       <div className="inner_container">
-        <div className="nav_logo_container">Logo</div>
+        <div className="nav_logo_container">
+          <div className="main_logo"></div>
+        </div>
         <div className="nav_links_container">
           <Link to="/" className="link">
             Home
@@ -76,7 +78,11 @@ const Navbar = () => {
                   src={require("../assets/georgia.png")}
                 />
               </MenuItem>
-              <MenuItem className="menu" onClick={handleClose}>
+              <MenuItem
+                style={{ fontFamily: "var(--font-lato)" }}
+                className="menu"
+                onClick={handleClose}
+              >
                 English
                 <img
                   alt=""

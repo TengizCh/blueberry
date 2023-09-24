@@ -29,6 +29,7 @@ const Footer = () => {
       </div>
       <div className="footer_details">
         <div className="footer_contact">
+          <h2>Contact</h2>
           <div className="contact_icon_div">
             <FiMail className="footer_icon" />
             <p>Blueberry@gmail.com</p>
@@ -43,12 +44,17 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer_navigation">
+          <h2>Navigation</h2>
           <Link className="footer_nav_links">Home</Link>
           <Link className="footer_nav_links">About</Link>
           <Link className="footer_nav_links">Contact</Link>
         </div>
       </div>
-      <div className="footer_copy">Copyright LLC Blueberry Factory</div>
+      <div className="footer_copy">
+        <p>
+          Copyright LLC <span>Biomo</span>
+        </p>
+      </div>
     </div>
   );
 };

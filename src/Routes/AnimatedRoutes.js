@@ -1,54 +1,52 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import About from "../components/About";
 import Landing from "../components/Landing";
 import Contact from "../components/Contact";
+import "../index.css";
 import Navbar from "../components/Navbar";
 
+import { motion } from "framer-motion";
+
 const AnimatedRoutes = () => {
-  //   const [loading, setLoading] = useState(false);
-  //   const [homeActive, setHomeActive] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const location = useLocation();
 
-  //   useEffect(() => {
-  //     setTimeout(() => setLoading(true), 2000);
-  //     setLoading(false);
-  //   }, []);
-
-  //   const handleChange = () => {
-  //     if (location.pathname === "/") {
-  //       setHomeActive(false);
-  //     } else {
-  //       setHomeActive(true);
-  //     }
-  //   };
+  useEffect(() => {
+    setTimeout(() => setLoading(true), 3000);
+    setLoading(false);
+  }, []);
 
   return (
-    // <>
-    //   {!loading ? (
-    //     <div className="loader_container">
-    //       <div className="loader_inner">
-    //         <BiLogoReact className="spin_icon" />
-    //         <p data-content="Loading..." className="spin_text">
-    //           Loading...
-    //         </p>
-    //       </div>
-    //     </div>
-    //   ) : (
-    //     <>
-    <AnimatePresence>
-      {/* <Navbar /> */}
-      <Routes location={location} key={location.pathname}>
-        <Route exact path="/" element={<Landing />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </AnimatePresence>
-    //     </>
-    //   )}
-    // </>
+    <>
+      {!loading ? (
+        <div className="loader_container">
+          <img
+            alt=""
+            src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
+          />
+          <div className="loader_inner">
+            <p className="loader_title">Biomo</p>
+            <p data-content="Loading..." className="spin_text">
+              Loading...
+            </p>
+          </div>
+        </div>
+      ) : (
+        <>
+          <AnimatePresence>
+            <Navbar />
+            <Routes location={location} key={location.pathname}>
+              <Route exact path="/" element={<Landing />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </AnimatePresence>
+        </>
+      )}
+    </>
   );
 };
 

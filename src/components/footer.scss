@@ -1,5 +1,5 @@
 .footer_container {
-  height: 40vh;
+  height: 42vh;
   width: 100%;
   background-color: rgb(244, 244, 244);
   display: flex;
@@ -15,6 +15,14 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+
+  p {
+    font-size: 16px;
+    color: rgb(62, 62, 204);
+    font-weight: 400;
+    font-family: var(--font-lato);
+  }
+
   button {
     background-color: transparent;
     border: none;
@@ -39,6 +47,21 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 24px;
+    color: rgb(62, 62, 204);
+    font-family: var(--font-lato);
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+    color: rgba(41, 41, 41, 0.796);
+    font-family: var(--font-lato);
+    font-weight: 400;
+  }
 }
 
 .footer_contact {
@@ -57,18 +80,29 @@
 
 .footer_icon {
   font-size: 24px;
+  color: rgba(41, 41, 41, 0.796);
 }
 
 .footer_navigation {
   display: flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 18px;
   flex-direction: column;
 }
 
 .footer_nav_links {
   text-decoration: none;
-  color: black;
+  color: rgba(41, 41, 41, 0.796);
+  transition: 0.4s ease-in-out;
+  font-family: var(--font-lato);
+  font-weight: 400;
+}
+
+.footer_nav_links:hover {
+  transform: translateX(9px);
+  transition: 0.4s ease-in-out;
+  color: rgb(62, 62, 204);
+  font-weight: 700;
 }
 
 .footer_copy {

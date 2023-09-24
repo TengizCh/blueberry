@@ -20,10 +20,12 @@ const Contact = () => {
     >
       <div className="contact_grid">
         <div className="grid_right">
-          <h2>Contact us</h2>
+          <h2 className="contact_us">Contact us</h2>
+
           <p className="contact_summary">
             we are ready to communicate any time
           </p>
+
           <div className="details_container">
             <FaLocationDot className="contact_icon" />
             <h3 className="details_title">Address</h3>
@@ -38,6 +40,15 @@ const Contact = () => {
             <BsTelephoneForward className="contact_icon" />
             <h3 className="details_title">Phone</h3>
             <p className="details_text">+995 599 999 999</p>
+          </div>
+          <div className="details_company">
+            <img
+              alt=""
+              className="contact_png"
+              src={require("../assets/48.png")}
+            />
+            <h3 className="details_title">Company</h3>
+            <p className="details_text">LTD Biomo</p>
           </div>
           <div className="icons_container">
             <button>
