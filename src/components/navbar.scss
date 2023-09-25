@@ -68,12 +68,12 @@
     rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
 
   .link {
-    color: rgb(62, 62, 204);
+    color: var(--blue-color);
   }
 
   .link:before {
     content: "";
-    background: rgb(62, 62, 204);
+    background: var(--blue-color);
     display: block;
     position: absolute;
     border-radius: 5px;

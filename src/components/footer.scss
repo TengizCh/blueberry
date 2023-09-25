@@ -18,7 +18,7 @@
 
   p {
     font-size: 16px;
-    color: rgb(62, 62, 204);
+    color: var(--blue-color);
     font-weight: 400;
     font-family: var(--font-lato);
   }
@@ -51,7 +51,7 @@
 
   h2 {
     font-size: 24px;
-    color: rgb(62, 62, 204);
+    color: var(--blue-color);
     font-family: var(--font-lato);
     font-weight: 700;
   }
@@ -101,7 +101,7 @@
 .footer_nav_links:hover {
   transform: translateX(9px);
   transition: 0.4s ease-in-out;
-  color: rgb(62, 62, 204);
+  color: var(--blue-color);
   font-weight: 700;
 }
 
@@ -112,4 +112,14 @@
   width: 90%;
   border-top: 1px solid black;
   padding: 20px 0px 0px 0px;
+}
+
+.public_icon {
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.public_icon:hover {
+  transform: translateY(-5px);
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import "./footer.scss";
 
-import { AiFillFacebook } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
+// import { AiFillFacebook } from "react-icons/ai";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { AiFillLinkedin } from "react-icons/ai";
 
 import { FaLocationDot } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
@@ -14,24 +14,37 @@ const Footer = () => {
   return (
     <div className="footer_container">
       <div className="footer_links">
-        <p>You can find us here</p>
-        <div className="links_inner">
+        <p style={{ color: "var(--green-color)" }}>You can find us here</p>
+        <div data-aos="fade-up" className="links_inner">
           <button>
-            <AiFillFacebook className="footer_icon" />
+            <img
+              alt=""
+              src={require("../assets/facebook.svg.png")}
+              className="public_icon"
+            />
           </button>
           <button>
-            <AiFillInstagram className="footer_icon" />
+            <img
+              alt=""
+              src={require("../assets/instagram.svg.png")}
+              className="public_icon"
+            />
           </button>
           <button>
-            <AiFillLinkedin className="footer_icon" />
+            <img
+              alt=""
+              src={require("../assets/linkedin.svg.png")}
+              className="public_icon"
+            />
           </button>
         </div>
       </div>
       <div className="footer_details">
-        <div className="footer_contact">
+        <div data-aos="fade-right" className="footer_contact">
           <h2>Contact</h2>
           <div className="contact_icon_div">
             <FiMail className="footer_icon" />
+
             <p>Blueberry@gmail.com</p>
           </div>
           <div className="contact_icon_div">
@@ -43,7 +56,7 @@ const Footer = () => {
             <p>+995 599 999 999</p>
           </div>
         </div>
-        <div className="footer_navigation">
+        <div data-aos="fade-left" className="footer_navigation">
           <h2>Navigation</h2>
           <Link className="footer_nav_links">Home</Link>
           <Link className="footer_nav_links">About</Link>
@@ -52,7 +65,25 @@ const Footer = () => {
       </div>
       <div className="footer_copy">
         <p>
-          Copyright LLC <span>Biomo</span>
+          Copyright{" "}
+          <span
+            style={{
+              color: "var(--green-color)",
+              fontWeight: "900",
+              fontFamily: "var(--font-lato)",
+            }}
+          >
+            LLC{" "}
+          </span>
+          <span
+            style={{
+              color: "var(--blue-color)",
+              fontWeight: "900",
+              fontFamily: "var(--font-lato)",
+            }}
+          >
+            Biomo
+          </span>
         </p>
       </div>
     </div>

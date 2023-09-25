@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +28,10 @@ body {
   font-weight: 400;
 
   --font-lato: "Lato", sans-serif;
+  --font-rounded: "M PLUS Rounded 1c", sans-serif;
+
+  --blue-color: #4a469a;
+  --green-color: #45b749;
 }
 
 .App {
@@ -79,10 +85,10 @@ body {
 
 .loader_title {
   color: white;
-  font-size: 62px;
+  font-size: 82px;
   letter-spacing: 3px;
-  font-family: var(--font-lato);
-  font-weight: 700;
+  font-family: var(--font-rounded);
+  font-weight: 800;
 }
 
 .spin_text {
