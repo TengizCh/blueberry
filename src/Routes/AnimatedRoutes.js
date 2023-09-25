@@ -7,6 +7,9 @@ import Contact from "../components/Contact";
 import "../index.css";
 import Navbar from "../components/Navbar";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const AnimatedRoutes = () => {
   const [loading, setLoading] = useState(false);
 
@@ -16,6 +19,13 @@ const AnimatedRoutes = () => {
     setTimeout(() => setLoading(true), 3000);
     setLoading(false);
   }, []);
+
+  useEffect(() => {
+    Aos.init({ duration: 2200 });
+    setTimeout(function () {
+      Aos.refresh();
+    }, 400);
+  }, [location]);
 
   return (
     <>

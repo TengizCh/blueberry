@@ -1,10 +1,17 @@
 import React from "react";
-
 import "./about.scss";
+
+import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 const About = () => {
   return (
-    <div className="about_container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="about_container"
+    >
       <div className="about_backgrounds">
         <img
           className="about_bg"
@@ -23,14 +30,14 @@ const About = () => {
         </div>
       </div>
       <div className="box_container">
-        <div className="timelaps_left">
+        <div data-aos="zoom-in" className="timelaps_left">
           <h1>2010</h1>
           <p className="timelaps_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="timelaps_right">
+        <div data-aos="zoom-in" className="timelaps_right">
           <h1>Present</h1>
           <p className="timelaps_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -39,7 +46,51 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+      <div className="about_lines">
+        <p className="lines_text">
+          <span style={{ color: "var(--green-color)" }}>B</span>iomo
+        </p>
+      </div>
+      <div data-aos="fade-right" className="about_details_container">
+        <img
+          data-aos="flip-up"
+          className="round_img"
+          alt=""
+          src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
+        />
+        <h1>Biomo</h1>
+        <p>
+          {" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam,
+        </p>
+      </div>
+      <div data-aos="fade-left" className="about_details_container_1">
+        <img
+          data-aos="flip-down"
+          className="round_img_1"
+          alt=""
+          src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
+        />
+        <h1>Biomo</h1>
+        <p>
+          {" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam,
+        </p>
+      </div>
+      <Footer />
+    </motion.div>
   );
 };
 
