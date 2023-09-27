@@ -9,6 +9,8 @@ import Navbar from "../components/Navbar";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Projects from "../components/Projects";
+import Gallery from "../components/Gallery";
 
 const AnimatedRoutes = () => {
   const [loading, setLoading] = useState(false);
@@ -50,6 +52,8 @@ const AnimatedRoutes = () => {
               <Route exact path="/" element={<Landing />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/gallery" element={<Gallery />} />
             </Routes>
           </AnimatePresence>
         </>

@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="footer_container">
       <div className="footer_links">
         <p style={{ color: "var(--green-color)" }}>You can find us here</p>
-        <div data-aos="fade-up" className="links_inner">
+        {/* <div data-aos="fade-up" className="links_inner">
           <button>
             <img
               alt=""
@@ -37,10 +37,22 @@ const Footer = () => {
               className="public_icon"
             />
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="footer_details">
-        <div data-aos="fade-right" className="footer_contact">
+        <div data-aos="fade-right" className="footer_partners">
+          <h2>Partners</h2>
+          <div className="contact_icon_div">
+            <p>partner n1</p>
+          </div>
+          <div className="contact_icon_div">
+            <p>partner n2</p>
+          </div>
+          <div className="contact_icon_div">
+            <p>partner n3</p>
+          </div>
+        </div>
+        <div data-aos="fade-up" className="footer_contact">
           <h2>Contact</h2>
           <div className="contact_icon_div">
             <FiMail className="footer_icon" />
@@ -58,9 +70,13 @@ const Footer = () => {
         </div>
         <div data-aos="fade-left" className="footer_navigation">
           <h2>Navigation</h2>
-          <Link className="footer_nav_links">Home</Link>
-          <Link className="footer_nav_links">About</Link>
-          <Link className="footer_nav_links">Contact</Link>
+          <div className="navigation_inner_grid">
+            <Link className="footer_nav_links">Home</Link>
+            <Link className="footer_nav_links">About</Link>
+            <Link className="footer_nav_links">Projects</Link>
+            <Link className="footer_nav_links">Gallery</Link>
+            <Link className="footer_nav_links">Contact</Link>
+          </div>
         </div>
       </div>
       <div className="footer_copy">

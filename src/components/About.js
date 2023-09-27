@@ -31,14 +31,14 @@ const About = () => {
       </div>
       <div className="box_container">
         <div data-aos="zoom-in" className="timelaps_left">
-          <h1>2010</h1>
+          <h1>2018</h1>
           <p className="timelaps_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div data-aos="zoom-in" className="timelaps_right">
-          <h1>Present</h1>
+          <h1>Harvest</h1>
           <p className="timelaps_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -58,7 +58,7 @@ const About = () => {
           alt=""
           src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
         />
-        <h1>Biomo</h1>
+        <h1>About us</h1>
         <p>
           {" "}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -77,7 +77,7 @@ const About = () => {
           alt=""
           src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
         />
-        <h1>Biomo</h1>
+        <h1>Our Team</h1>
         <p>
           {" "}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

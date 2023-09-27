@@ -1,0 +1,34 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.gallery_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.gallery_title {
+  color: white;
+  z-index: 200;
+  font-family: var(--font-rounded);
+  font-size: 74px;
+  position: absolute;
+  left: -5%;
+  transform: rotate(270deg);
+  letter-spacing: 14px;
+}
+
+.gallery_bg {
+  background-image: url("https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+}

@@ -21,9 +21,11 @@ const LandingInfo = () => {
             at Hampden-Sydney College in Virginia, looked up one of the more
             obscure Latin words, consectetur,
           </p>
-          <Link className="learn_more_1">Learn more</Link>
+          <Link to="/about" className="learn_more_1">
+            Learn more
+          </Link>
         </div>
-        <div data-aos="fade-up" className="info_text_2">
+        {/* <div data-aos="fade-up" className="info_text_2">
           <h1>RedBerry</h1>
           <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -39,7 +41,7 @@ const LandingInfo = () => {
           className="info_img"
           alt=""
           src="https://hips.hearstapps.com/hmg-prod/images/blueberries-1527711083.jpg?crop=0.667xw:1.00xh;0.202xw,0&resize=1200:*"
-        />
+        /> */}
       </div>
     </div>
   );
