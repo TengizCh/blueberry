@@ -137,3 +137,35 @@
 .public_icon:hover {
   transform: translateY(-5px);
 }
+
+@media screen and (max-width: 480px) {
+  .footer_container {
+    height: 100%;
+    align-items: flex-start;
+    padding: 30px 30px 20px 30px;
+    align-items: flex-start;
+  }
+
+  .footer_links {
+    align-items: flex-start;
+  }
+
+  .links_inner {
+    margin-top: 10px;
+  }
+
+  .footer_details {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .navigation_inner_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 18px;
+  }
+
+  .footer_copy {
+    width: 100%;
+  }
+}

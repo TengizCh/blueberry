@@ -24,3 +24,9 @@ img {
   // color: var(--green-color);
   padding: 5px 35px;
 }
+
+@media screen and (max-width: 480px) {
+  .landing_text {
+    font-size: 62px;
+  }
+}

@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="footer_container">
       <div className="footer_links">
         <p style={{ color: "var(--green-color)" }}>You can find us here</p>
-        {/* <div data-aos="fade-up" className="links_inner">
+        <div data-aos="fade-up" className="links_inner">
           <button>
             <img
               alt=""
@@ -37,7 +37,7 @@ const Footer = () => {
               className="public_icon"
             />
           </button>
-        </div> */}
+        </div>
       </div>
       <div className="footer_details">
         <div data-aos="fade-right" className="footer_partners">

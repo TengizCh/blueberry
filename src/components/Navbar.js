@@ -4,11 +4,21 @@ import { Link } from "react-router-dom";
 import { Button, Menu, MenuItem } from "@mui/material";
 
 import { MdLanguage } from "react-icons/md";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Navbar = () => {
   const [bg, setBg] = useState("nav_container");
 
   const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const [active, setActive] = useState(false);
+
+  const showNavBar = () => {
+    setActive(!active);
+  };
+  const removeNavBar = () => {
+    setActive(!active);
+  };
 
   const addBgColor = () => {
     if (window.scrollY >= 1) {
@@ -34,7 +44,14 @@ const Navbar = () => {
         <div className="nav_logo_container">
           <div className="main_logo"></div>
         </div>
-        <div className="nav_links_container">
+        <button>
+          <HiOutlineMenuAlt3 onClick={showNavBar} className="menu_icon" />
+        </button>
+        <div
+          className={
+            active ? "nav_links_container showNavbar" : "nav_links_container"
+          }
+        >
           <Link to="/" className="link">
             Home
           </Link>
