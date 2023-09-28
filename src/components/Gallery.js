@@ -23,7 +23,7 @@ const Gallery = () => {
     <div className="gallery_container">
       <div className="gallery_bg"></div>
       <h1 className="gallery_title">Gallery</h1>
-      <div style={{ margin: "50px" }}></div>
+      <div className="div_margin"></div>
       <ImageGallery className="gallery" items={images} showPlayButton={false} />
     </div>
   );

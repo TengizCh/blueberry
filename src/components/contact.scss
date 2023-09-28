@@ -141,3 +141,22 @@
 .contact_public:hover {
   transform: translateY(-5px);
 }
+
+@media screen and (max-width: 480px) {
+  .grid_right {
+    padding: 40px 40px;
+    width: 90%;
+    justify-content: center;
+    margin-top: 40px;
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  .icons_container {
+    right: 10%;
+    top: 40%;
+    transform: translate(-60%, -10%);
+  }
+}

@@ -5,6 +5,7 @@ const Projects = () => {
   return (
     <div className="project_container">
       <img
+        className="project_img"
         alt=""
         src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
       />

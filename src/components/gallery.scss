@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.div_margin {
+  margin: 50px;
+}
+
 .gallery_title {
   color: white;
   z-index: 200;
@@ -31,4 +35,22 @@
   width: 100%;
   position: absolute;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+  .gallery_title {
+    color: white;
+    z-index: 200;
+    font-family: var(--font-rounded);
+    font-size: 58px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+    letter-spacing: 14px;
+  }
+
+  .div_margin {
+    margin: 0px;
+  }
 }
