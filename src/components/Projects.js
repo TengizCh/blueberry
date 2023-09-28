@@ -10,7 +10,7 @@ const Projects = () => {
       />
       <h1 className="project_title">Projects</h1>
       <div className="project_grid">
-        <div data-aos="zoom-in-right" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 className="grid_title">Project 1</h2>
           <p className="grid_text">
             It is a long established fact that a reader will be distracted by
@@ -20,7 +20,7 @@ const Projects = () => {
             here', making it look like readable English
           </p>
         </div>
-        <div data-aos="zoom-in-down" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 style={{ color: "var(--green-color)" }} className="grid_title">
             Project 1
           </h2>
@@ -32,7 +32,7 @@ const Projects = () => {
             here', making it look like readable English
           </p>
         </div>
-        <div data-aos="zoom-in-left" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 className="grid_title">Project 1</h2>
           <p className="grid_text">
             It is a long established fact that a reader will be distracted by
@@ -42,7 +42,7 @@ const Projects = () => {
             here', making it look like readable English
           </p>
         </div>
-        <div data-aos="zoom-out-right" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 style={{ color: "var(--green-color)" }} className="grid_title">
             Project 1
           </h2>
@@ -54,7 +54,7 @@ const Projects = () => {
             here', making it look like readable English
           </p>
         </div>
-        <div data-aos="zoom-in-up" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 className="grid_title">Project 1</h2>
           <p className="grid_text">
             It is a long established fact that a reader will be distracted by
@@ -64,7 +64,7 @@ const Projects = () => {
             here', making it look like readable English
           </p>
         </div>
-        <div data-aos="zoom-out-left" className="grid_1">
+        <div data-aos="fade-up" className="grid_1">
           <h2 style={{ color: "var(--green-color)" }} className="grid_title">
             Project 1
           </h2>

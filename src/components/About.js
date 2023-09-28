@@ -51,7 +51,7 @@ const About = () => {
           <span style={{ color: "var(--green-color)" }}>B</span>iomo
         </p>
       </div>
-      <div data-aos="fade-right" className="about_details_container">
+      <div data-aos="fade-down" className="about_details_container">
         <img
           data-aos="flip-up"
           className="round_img"
@@ -70,7 +70,7 @@ const About = () => {
           magna aliqua. Ut enim ad minim veniam,
         </p>
       </div>
-      <div data-aos="fade-left" className="about_details_container_1">
+      <div data-aos="fade-up" className="about_details_container_1">
         <img
           data-aos="flip-down"
           className="round_img_1"

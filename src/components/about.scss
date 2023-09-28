@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   transform: translate(-50%, -50%);
   gap: 50px;
 }
@@ -74,7 +75,7 @@
 .timelaps_right {
   height: 320px;
   width: 230px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.893);
   -webkit-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
   box-shadow: 8px 8px 18px -3px rgba(0, 0, 0, 0.48);
@@ -84,6 +85,7 @@
   align-items: center;
   padding: 30px 20px;
   gap: 30px;
+  border-radius: 30px;
 
   h1 {
     font-family: var(--font-lato);
@@ -224,4 +226,105 @@
   border-radius: 140px;
   top: -4rem;
   right: -3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .box_container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .rounded_bg {
+    svg {
+      height: 30px;
+    }
+  }
+
+  .timelaps_left {
+    height: 200px;
+    width: 380px;
+    padding: 20px 20px;
+    gap: 10px;
+  }
+
+  .timelaps_right {
+    height: 200px;
+    width: 380px;
+    padding: 20px 20px;
+    gap: 10px;
+  }
+
+  .round_img {
+    height: 160px;
+    width: 160px;
+    top: -4rem;
+    left: 0rem;
+  }
+
+  .about_details_container {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    height: 440px;
+    justify-content: center;
+
+    h1 {
+      align-self: flex-end;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  .round_img_1 {
+    height: 160px;
+    width: 160px;
+    top: -4rem;
+    right: 0rem;
+  }
+
+  .about_details_container_1 {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    height: 440px;
+    justify-content: center;
+
+    h1 {
+      align-self: flex-start;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  .about_lines {
+    margin-top: 400px;
+  }
+
+  .lines_text::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgb(205, 205, 205);
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-left: 100px;
+  }
+
+  .lines_text::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgb(205, 205, 205);
+    right: 0;
+    top: 50%;
+    position: absolute;
+    margin-right: 100px;
+  }
 }

@@ -52,19 +52,19 @@ const Navbar = () => {
             active ? "nav_links_container showNavbar" : "nav_links_container"
           }
         >
-          <Link to="/" className="link">
+          <Link onClick={removeNavBar} to="/" className="link">
             Home
           </Link>
-          <Link to="/about" className="link">
+          <Link onClick={removeNavBar} to="/about" className="link">
             About
           </Link>
-          <Link to="/projects" className="link">
+          <Link onClick={removeNavBar} to="/projects" className="link">
             Projects
           </Link>
-          <Link to="/gallery" className="link">
+          <Link onClick={removeNavBar} to="/gallery" className="link">
             Gallery
           </Link>
-          <Link to="/contact" className="link">
+          <Link onClick={removeNavBar} to="/contact" className="link">
             Contact
           </Link>
           <div>
