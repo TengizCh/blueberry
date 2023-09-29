@@ -37,6 +37,38 @@
   opacity: 0.6;
 }
 
+@media screen and (max-width: 680px) {
+  .gallery_title {
+    color: white;
+    z-index: 200;
+    font-family: var(--font-rounded);
+    font-size: 68px;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -15%);
+    letter-spacing: 14px;
+  }
+
+  .div_margin {
+    margin: 60px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .gallery_title {
+    color: white;
+    z-index: 200;
+    font-family: var(--font-rounded);
+    font-size: 64px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+    letter-spacing: 14px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .gallery_title {
     color: white;
