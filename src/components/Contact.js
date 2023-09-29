@@ -5,10 +5,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 import { BsTelephoneForward } from "react-icons/bs";
 
-// import { AiFillFacebook } from "react-icons/ai";
-// import { AiFillInstagram } from "react-icons/ai";
-// import { AiFillLinkedin } from "react-icons/ai";
-
 import { motion } from "framer-motion";
 
 const Contact = () => {

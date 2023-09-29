@@ -1,5 +1,6 @@
 {
   "name": "blueberry",
+  "homepage": "https://tengizch.github.io/blueberry",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
