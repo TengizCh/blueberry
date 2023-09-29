@@ -69,6 +69,33 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 769px) {
+  .project_title {
+    position: absolute;
+    color: white;
+    top: 11%;
+    left: 10%;
+    font-size: 68px;
+  }
+
+  .project_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    position: absolute;
+    top: 30%;
+    padding-bottom: 50px;
+  }
+
+  .grid_1 {
+    height: 260px;
+    width: 86%;
+    justify-self: center;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .project_title {
     position: absolute;
@@ -86,6 +113,7 @@
     grid-row-gap: 25px;
     position: absolute;
     top: 25%;
+    padding-bottom: 50px;
   }
 
   .grid_1 {
