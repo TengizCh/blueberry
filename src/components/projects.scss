@@ -69,6 +69,22 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 960px) {
+  .project_grid {
+    grid-row-gap: 25px;
+    grid-column-gap: 10px;
+    padding-bottom: 50px;
+  }
+
+  .grid_1 {
+    height: 260px;
+    width: 100%;
+    max-width: 300px !important;
+    justify-self: center;
+    padding: 20px 20px 20px 20px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .project_title {
     position: absolute;
