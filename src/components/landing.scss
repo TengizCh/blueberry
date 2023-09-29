@@ -24,7 +24,10 @@ img {
   padding: 5px 35px;
 }
 
-@media screeen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  .landing_text {
+    font-size: 82px;
+  }
 }
 
 @media screen and (max-width: 960px) {

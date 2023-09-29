@@ -93,14 +93,14 @@ const Navbar = () => {
                 horizontal: "left",
               }}
             >
-              <MenuItem className="menu" onClick={handleClose}>
+              {/* <MenuItem className="menu" onClick={handleClose}>
                 ქართული
                 <img
                   alt=""
                   className="flag_icon"
                   src={require("../assets/georgia.png")}
                 />
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem
                 style={{ fontFamily: "var(--font-lato)" }}
                 className="menu"

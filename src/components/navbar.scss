@@ -91,6 +91,10 @@
   .link:hover::before {
     width: 100%;
   }
+
+  .language_icon {
+    color: var(--blue-color) !important;
+  }
 }
 
 .language_icon {
@@ -117,6 +121,18 @@
 
 .menu_icon {
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .inner_container {
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .inner_container {
+    padding: 0.7rem 1.4rem;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -193,11 +209,5 @@
     right: 20%;
 
     transition: 0.5s ease-in-out;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .inner_container {
-    padding: 0.7rem 1.4rem;
   }
 }
