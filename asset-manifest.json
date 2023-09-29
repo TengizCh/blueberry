@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.732c7eff.css",
-    "main.js": "/static/js/main.d969fa65.js",
-    "static/media/instagram.svg.png": "/static/media/instagram.svg.0940ed96e4c21ec3514b.png",
-    "static/media/facebook.svg.png": "/static/media/facebook.svg.4fbcaf1fc058ff2a75ef.png",
-    "static/media/united-kingdom.png": "/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
-    "static/media/georgia.png": "/static/media/georgia.96a6cc2be72b8eed38c1.png",
-    "index.html": "/index.html",
-    "main.732c7eff.css.map": "/static/css/main.732c7eff.css.map",
-    "main.d969fa65.js.map": "/static/js/main.d969fa65.js.map"
+    "main.css": "/blueberry/static/css/main.21c8d229.css",
+    "main.js": "/blueberry/static/js/main.0416d663.js",
+    "static/media/instagram.svg.png": "/blueberry/static/media/instagram.svg.0940ed96e4c21ec3514b.png",
+    "static/media/facebook.svg.png": "/blueberry/static/media/facebook.svg.4fbcaf1fc058ff2a75ef.png",
+    "static/media/united-kingdom.png": "/blueberry/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
+    "index.html": "/blueberry/index.html",
+    "main.21c8d229.css.map": "/blueberry/static/css/main.21c8d229.css.map",
+    "main.0416d663.js.map": "/blueberry/static/js/main.0416d663.js.map"
   },
   "entrypoints": [
-    "static/css/main.732c7eff.css",
-    "static/js/main.d969fa65.js"
+    "static/css/main.21c8d229.css",
+    "static/js/main.0416d663.js"
   ]
 }
