@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="footer_container">
       <div className="footer_links">
         <p style={{ color: "var(--green-color)" }}>You can find us here</p>
-        <div className="links_inner">
+        {/* <div className="links_inner">
           <button>
             <img
               alt=""
@@ -37,7 +37,7 @@ const Footer = () => {
               className="public_icon"
             />
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="footer_details">
         <div className="footer_partners">

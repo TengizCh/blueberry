@@ -47,7 +47,7 @@ const Contact = () => {
             <h3 className="details_title">Company</h3>
             <p className="details_text">LTD Biomo</p>
           </div>
-          <div className="icons_container">
+          {/* <div className="icons_container">
             <button>
               <img
                 alt=""
@@ -69,7 +69,7 @@ const Contact = () => {
                 className="contact_public"
               />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.div>
