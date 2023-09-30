@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/blueberry/static/css/main.0dd8afab.css",
-    "main.js": "/blueberry/static/js/main.2c9a3468.js",
+    "main.js": "/blueberry/static/js/main.c81a7f7f.js",
     "static/media/background.jpg": "/blueberry/static/media/background.0d1f11e7a879f4a7088d.jpg",
-    "static/media/instagram.svg.png": "/blueberry/static/media/instagram.svg.0940ed96e4c21ec3514b.png",
-    "static/media/facebook.svg.png": "/blueberry/static/media/facebook.svg.4fbcaf1fc058ff2a75ef.png",
     "static/media/united-kingdom.png": "/blueberry/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
     "index.html": "/blueberry/index.html",
     "main.0dd8afab.css.map": "/blueberry/static/css/main.0dd8afab.css.map",
-    "main.2c9a3468.js.map": "/blueberry/static/js/main.2c9a3468.js.map"
+    "main.c81a7f7f.js.map": "/blueberry/static/js/main.c81a7f7f.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd8afab.css",
-    "static/js/main.2c9a3468.js"
+    "static/js/main.c81a7f7f.js"
   ]
 }
