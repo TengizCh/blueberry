@@ -291,12 +291,17 @@
 
   .footer_links {
     align-items: flex-start;
+    // justify-content: space-between;
+    gap: 30px;
+    margin: 0px;
   }
 
   .footer_details {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    align-items: flex-start;
+    padding-left: 20px;
   }
 
   .navigation_inner_grid {
@@ -307,5 +312,6 @@
 
   .footer_copy {
     width: 100%;
+    padding-top: 10px;
   }
 }
