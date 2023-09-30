@@ -10,34 +10,22 @@ import { FiMail } from "react-icons/fi";
 import { BsTelephoneForward } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <div className="footer_container">
       <div className="footer_links">
         <p style={{ color: "var(--green-color)" }}>You can find us here</p>
-        {/* <div className="links_inner">
-          <button>
-            <img
-              alt=""
-              src={require("../assets/facebook.svg.png")}
-              className="public_icon"
-            />
+        <div className="links_inner">
+          <button className="icon_button">
+            <FaFacebookF className="contact_public" />
           </button>
-          <button>
-            <img
-              alt=""
-              src={require("../assets/instagram.svg.png")}
-              className="public_icon"
-            />
+          <button className="icon_button">
+            <AiFillInstagram className="contact_public" />
           </button>
-          <button>
-            <img
-              alt=""
-              src={require("../assets/linkedin.svg.png")}
-              className="public_icon"
-            />
-          </button>
-        </div> */}
+        </div>
       </div>
       <div className="footer_details">
         <div className="footer_partners">

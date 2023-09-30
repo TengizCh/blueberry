@@ -112,15 +112,15 @@
   top: 20rem;
   right: 34%;
 
-  button {
-    background-color: transparent;
-    border: none;
-    transition: 0.4s ease-in;
+  // button {
+  //   background-color: transparent;
+  //   border: none;
+  //   transition: 0.4s ease-in;
 
-    :hover {
-      color: var(--blue-color);
-    }
-  }
+  //   :hover {
+  //     color: var(--blue-color);
+  //   }
+  // }
 }
 
 .link_icon {
@@ -133,13 +133,29 @@
   }
 }
 
-.contact_public {
-  height: 30px !important;
+.icon_button {
+  border: 2px solid rgba(41, 41, 41, 0.796);
+  // padding: 0px 5px;
+  border-radius: 30px;
   transition: 0.4s ease-in-out;
+  height: 50px;
+  width: 50px;
 }
 
-.contact_public:hover {
+.icon_button:hover {
   transform: translateY(-5px);
+  border: 2px solid var(--green-color);
+}
+
+.icon_button:hover .contact_public {
+  color: var(--blue-color) !important;
+}
+
+.contact_public {
+  color: rgba(41, 41, 41, 0.796) !important;
+  // height: 30px !important;
+  transition: 0.4s ease-in-out;
+  font-size: 18px !important;
 }
 
 @media screen and (max-width: 1024px) {

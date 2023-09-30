@@ -4,6 +4,8 @@ import "./contact.scss";
 import { FaLocationDot } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 import { BsTelephoneForward } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 import { motion } from "framer-motion";
 
@@ -47,15 +49,14 @@ const Contact = () => {
             <h3 className="details_title">Company</h3>
             <p className="details_text">LTD Biomo</p>
           </div>
-          {/* <div className="icons_container">
-            <button>
-              <img
-                alt=""
-                src={require("../assets/facebook.svg.png")}
-                className="contact_public"
-              />
+          <div className="icons_container">
+            <button className="icon_button">
+              <FaFacebookF className="contact_public" />
             </button>
-            <button>
+            <button className="icon_button">
+              <AiFillInstagram className="contact_public" />
+            </button>
+            {/* <button>
               <img
                 alt=""
                 src={require("../assets/instagram.svg.png")}
@@ -68,8 +69,8 @@ const Contact = () => {
                 src={require("../assets/linkedin.svg.png")}
                 className="contact_public"
               />
-            </button>
-          </div> */}
+            </button> */}
+          </div>
         </div>
       </div>
     </motion.div>
