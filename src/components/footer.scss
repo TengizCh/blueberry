@@ -129,7 +129,7 @@
 }
 
 .public_icon {
-  height: 30px;
+  height: 30px !important;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -171,6 +171,11 @@
     gap: 130px;
     padding: 30px 0px 20px 0px;
   }
+  .public_icon {
+    height: 30px !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
 
   .footer_copy {
     padding: 10px 0px 0px 0px;
@@ -180,6 +185,12 @@
 @media screen and (max-width: 960px) {
   .footer_container {
     height: 45vh;
+  }
+
+  .public_icon {
+    height: 30px !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
   }
 
   .footer_links {
@@ -204,6 +215,11 @@
 @media screen and (max-width: 769px) {
   .footer_container {
     height: 45vh;
+  }
+  .public_icon {
+    height: 30px !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
   }
 
   .footer_links {
@@ -254,6 +270,12 @@
     width: 100%;
     padding: 0px 0px 30px 0px;
   }
+
+  .public_icon {
+    height: 30px !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
   .footer_details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -283,15 +305,20 @@
 
 @media screen and (max-width: 480px) {
   .footer_container {
+    min-height: 860px;
     height: 100%;
     align-items: flex-start;
     padding: 30px 30px 20px 30px;
     align-items: flex-start;
   }
+  .public_icon {
+    height: 30px !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
 
   .footer_links {
     align-items: flex-start;
-    // justify-content: space-between;
     gap: 30px;
     margin: 0px;
   }

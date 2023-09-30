@@ -16,7 +16,7 @@ const About = () => {
         <img
           className="about_bg"
           alt=""
-          src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
+          src={require("../assets/background.jpg")}
         />
         <div class="rounded_bg">
           <svg

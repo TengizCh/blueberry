@@ -33,10 +33,7 @@ const AnimatedRoutes = () => {
     <>
       {!loading ? (
         <div className="loader_container">
-          <img
-            alt=""
-            src="https://images.everydayhealth.com/images/blueberries-101-1440x810.jpg"
-          />
+          <img alt="" src={require("../assets/background.jpg")} />
           <div className="loader_inner">
             <p className="loader_title">Biomo</p>
             <p data-content="Loading..." className="spin_text">
@@ -54,6 +51,7 @@ const AnimatedRoutes = () => {
               <Route path="/blueberry/contact" element={<Contact />} />
               <Route path="/blueberry/projects" element={<Projects />} />
               <Route path="/blueberry/gallery" element={<Gallery />} />
+              <Route path="*" element={<Landing />} />
             </Routes>
           </AnimatePresence>
         </>
