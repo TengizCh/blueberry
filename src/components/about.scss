@@ -550,7 +550,8 @@
 @media screen and (max-width: 480px) {
   .box_container {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: -10px;
+    gap: 15px;
   }
 
   .rounded_bg {
@@ -561,14 +562,14 @@
 
   .timelaps_left {
     height: 200px;
-    width: 380px;
+    width: 360px;
     padding: 20px 20px;
     gap: 10px;
   }
 
   .timelaps_right {
     height: 200px;
-    width: 380px;
+    width: 360px;
     padding: 20px 20px;
     gap: 10px;
   }
