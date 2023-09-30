@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/blueberry/static/css/main.0dd8afab.css",
-    "main.js": "/blueberry/static/js/main.c81a7f7f.js",
+    "main.css": "/blueberry/static/css/main.18ba9d0a.css",
+    "main.js": "/blueberry/static/js/main.07fe9b16.js",
     "static/media/background.jpg": "/blueberry/static/media/background.0d1f11e7a879f4a7088d.jpg",
     "static/media/united-kingdom.png": "/blueberry/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
     "index.html": "/blueberry/index.html",
-    "main.0dd8afab.css.map": "/blueberry/static/css/main.0dd8afab.css.map",
-    "main.c81a7f7f.js.map": "/blueberry/static/js/main.c81a7f7f.js.map"
+    "main.18ba9d0a.css.map": "/blueberry/static/css/main.18ba9d0a.css.map",
+    "main.07fe9b16.js.map": "/blueberry/static/js/main.07fe9b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dd8afab.css",
-    "static/js/main.c81a7f7f.js"
+    "static/css/main.18ba9d0a.css",
+    "static/js/main.07fe9b16.js"
   ]
 }
