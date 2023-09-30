@@ -49,11 +49,11 @@ const AnimatedRoutes = () => {
           <AnimatePresence>
             <Navbar />
             <Routes location={location} key={location.pathname}>
-              <Route exact path="/" element={<Landing />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/gallery" element={<Gallery />} />
+              <Route exact path="/blueberry" element={<Landing />} />
+              <Route path="/blueberry/about" element={<About />} />
+              <Route path="/blueberry/contact" element={<Contact />} />
+              <Route path="/blueberry/projects" element={<Projects />} />
+              <Route path="/blueberry/gallery" element={<Gallery />} />
             </Routes>
           </AnimatePresence>
         </>

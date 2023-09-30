@@ -71,19 +71,19 @@ const Footer = () => {
         <div className="footer_navigation">
           <h2>Navigation</h2>
           <div className="navigation_inner_grid">
-            <Link to="/" className="footer_nav_links">
+            <Link to="/blueberry" className="footer_nav_links">
               Home
             </Link>
-            <Link to="/about" className="footer_nav_links">
+            <Link to="/blueberry/about" className="footer_nav_links">
               About
             </Link>
-            <Link to="/projects" className="footer_nav_links">
+            <Link to="/blueberry/projects" className="footer_nav_links">
               Projects
             </Link>
-            <Link to="/gallery" className="footer_nav_links">
+            <Link to="/blueberry/gallery" className="footer_nav_links">
               Gallery
             </Link>
-            <Link to="/contact" className="footer_nav_links">
+            <Link to="/blueberry/contact" className="footer_nav_links">
               Contact
             </Link>
           </div>

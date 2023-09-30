@@ -52,19 +52,23 @@ const Navbar = () => {
             active ? "nav_links_container showNavbar" : "nav_links_container"
           }
         >
-          <Link onClick={removeNavBar} to="/" className="link">
+          <Link onClick={removeNavBar} to="/blueberry" className="link">
             Home
           </Link>
-          <Link onClick={removeNavBar} to="/about" className="link">
+          <Link onClick={removeNavBar} to="/blueberry/about" className="link">
             About
           </Link>
-          <Link onClick={removeNavBar} to="/projects" className="link">
+          <Link
+            onClick={removeNavBar}
+            to="/blueberry/projects"
+            className="link"
+          >
             Projects
           </Link>
-          <Link onClick={removeNavBar} to="/gallery" className="link">
+          <Link onClick={removeNavBar} to="/blueberry/gallery" className="link">
             Gallery
           </Link>
-          <Link onClick={removeNavBar} to="/contact" className="link">
+          <Link onClick={removeNavBar} to="/blueberry/contact" className="link">
             Contact
           </Link>
           <div>
