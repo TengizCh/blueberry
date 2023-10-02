@@ -11,7 +11,12 @@
 }
 
 .div_margin {
-  margin: 50px;
+  margin: 30px;
+}
+
+.gallery_wrap {
+  width: 100%;
+  max-width: 1080px;
 }
 
 .gallery_title {
@@ -35,6 +40,24 @@
   width: 100%;
   position: absolute;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 1332px) {
+  .gallery_title {
+    font-size: 74px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -15%);
+    letter-spacing: 14px;
+  }
+
+  .gallery_wrap {
+    max-width: 1050px !important;
+  }
+  .div_margin {
+    margin: 40px;
+  }
 }
 
 @media screen and (max-width: 1024px) {

@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="nav_logo_container">
           <div className="main_logo"></div>
         </div>
-        <button>
+        <button className="menu_icon_button">
           <HiOutlineMenuAlt3 onClick={showNavBar} className="menu_icon" />
         </button>
         <div

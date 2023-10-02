@@ -1,9 +1,16 @@
 import React from "react";
 import "./projects.scss";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
-    <div className="project_container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="project_container"
+    >
       <img
         className="project_img"
         alt=""
@@ -78,7 +85,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

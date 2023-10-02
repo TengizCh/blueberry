@@ -150,6 +150,7 @@
 @media screen and (max-width: 769px) {
   .footer_container {
     height: 45vh;
+    padding: 30px 10px;
   }
 
   .footer_links {
@@ -194,6 +195,7 @@
 @media screen and (max-width: 960px) {
   .footer_container {
     height: 45vh;
+    justify-content: flex-start;
   }
 
   .public_icon {
@@ -327,7 +329,7 @@
   }
 
   .footer_links {
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
     margin: 0px;
   }

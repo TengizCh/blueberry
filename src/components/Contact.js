@@ -17,7 +17,7 @@ const Contact = () => {
       exit={{ opacity: 0 }}
       className="contact_container"
     >
-      <div className="contact_grid">
+      <div data-aos="fade-down" className="contact_grid">
         <div className="grid_right">
           <h2 className="contact_us">Contact us</h2>
 

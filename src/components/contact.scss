@@ -158,6 +158,26 @@
   font-size: 18px !important;
 }
 
+@media screen and (max-width: 1332px) {
+  .grid_right {
+    padding: 30px 30px 10px 60px;
+    width: 45%;
+    justify-content: center;
+    // margin-top: 60px;
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .icons_container {
+    right: 30%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .grid_right {
     padding: 30px 50px 10px 50px;

@@ -119,6 +119,10 @@
   width: 120px;
 }
 
+.menu_icon_button {
+  display: none;
+}
+
 .menu_icon {
   display: none;
 }
@@ -142,7 +146,8 @@
     font-size: 30px;
   }
 
-  button {
+  .menu_icon_button {
+    display: block;
     border: none;
     background-color: transparent;
   }

@@ -110,6 +110,7 @@
     font-family: var(--font-lato);
     font-weight: 300;
     margin-bottom: 30px;
+    font-size: 18px;
   }
 }
 
@@ -135,6 +136,34 @@
   color: white;
   background-color: var(--blue-color);
   border: 1px solid var(--blue-color);
+}
+
+@media screen and (max-width: 1332px) {
+  .info_grid {
+    width: 88%;
+  }
+  .info_text_1 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 50px 30px 35px 30px;
+    text-align: left;
+
+    h1 {
+      margin-bottom: 20px;
+      font-weight: 900;
+    }
+
+    p {
+      line-height: 34px;
+      font-weight: 300;
+      font-size: 18px;
+      margin-bottom: 50px;
+      letter-spacing: 1px;
+    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -178,6 +207,10 @@
 }
 
 @media screen and (max-width: 960px) {
+  .info_container {
+    height: 100vh;
+  }
+
   .info_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -220,6 +253,9 @@
 }
 
 @media screen and (max-width: 769px) {
+  .info_container {
+    height: 110vh;
+  }
   .info_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -258,6 +294,9 @@
 }
 
 @media screen and (max-width: 680px) {
+  .info_container {
+    height: 110vh;
+  }
   .info_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -302,6 +341,9 @@
 }
 
 @media screen and (max-width: 570px) {
+  .info_container {
+    height: 110vh;
+  }
   .info_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -346,6 +388,61 @@
 }
 
 @media screen and (max-width: 480px) {
+  .info_container {
+    height: 120vh;
+  }
+  .info_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(244, 244, 244);
+    width: 94%;
+    border-radius: 6px;
+    height: 80%;
+  }
+
+  .info_text_1 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 25px 25px;
+    text-align: left;
+
+    h1 {
+      margin-bottom: 14px;
+      color: var(--blue-color);
+      font-family: var(--font-lato);
+      font-weight: 900;
+    }
+
+    p {
+      line-height: 30px;
+      color: var(--blue-color);
+      font-family: var(--font-lato);
+      font-weight: 300;
+    }
+  }
+
+  .learn_more_1 {
+    width: 100%;
+  }
+
+  .info_img_1 {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+    max-height: 270px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .info_container {
+    height: 140vh;
+  }
   .info_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
