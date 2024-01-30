@@ -13,7 +13,7 @@ const LandingInfo = () => {
           src="https://www.canr.msu.edu/contentAsset/image/3d9f7288-96f8-4380-9ea6-16955e219c14/fileAsset/filter/Resize,Jpeg/resize_w/750/jpeg_q/80"
         />
         <div data-aos="fade-up" className="info_text_1">
-          <h1>Blueberry</h1>
+          <h1>Video</h1>
           <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
